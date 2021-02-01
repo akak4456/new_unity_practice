@@ -420,6 +420,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3f10857aa4ab7a4b831e1b59ca6435e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  max: 1000
+  min: 1
+  guessText: {fileID: 174740225}
 --- !u!4 &244004850
 Transform:
   m_ObjectHideFlags: 0
@@ -1206,8 +1209,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1485885675}
-        m_MethodName: LoadNextScene
+      - m_Target: {fileID: 244004849}
+        m_MethodName: OnPressHigher
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1599,8 +1602,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1485885675}
-        m_MethodName: LoadNextScene
+      - m_Target: {fileID: 244004849}
+        m_MethodName: OnPressLower
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
